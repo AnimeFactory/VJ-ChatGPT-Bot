@@ -12,8 +12,8 @@ def is_enabled(value, default):
 
 API_ID = int(environ.get("API_ID", "21016163"))
 API_HASH = environ.get("API_HASH", "365f3421c4243310e1c738e2b6fb63a1")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7047064818:AAGjVVr3KWCGWSUYdqQn4Qm-DCtFixd7IE0")
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002001312461"))
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002226136301"))
 ADMINS = int(environ.get("ADMINS", "5806054139"))
 DB_URI = environ.get("DB_URI", "mongodb+srv://gokumuikaioken20times:@qazplmwsxoknABC123@cluster0.4ed1fpj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "chatgptvjbot")
